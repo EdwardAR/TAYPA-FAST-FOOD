@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+/* Contenedor|fondo */
+.contenedor{
+    background-image: radial-gradient(circle at 91.99% 34.72%, #d2ff89 0, #b9ff91 10%, #9dff99 20%,
+            #80fb9f 30%, #62efa4 40%, #3fe0a6 50%, #06d1a7 60%, #00c4a8 70%, #00b8a9 80%, #00afab 90%, #00a7ae 100%);
+    padding-bottom: 100px;    
+}
+.headerprincipal{
+    position: fixed; /* para que este fijado */
+    top: 0;
+    padding-top: 10px;
+    width: 100%;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; /* para que se separen */
+    transition: 0.7s;
+    padding: 20px 10px;
+    justify-content: space-around;
+}
+.menu{
+    display: none;
+
+}
+.logoprincipal{
+    font-weight: 1000;
+    font-size: 30px;
+    
+}
+.logotivop{
+    width:230px;
+    height:130px;
+}
+.namelogo{
+    color: rgb(173, 44, 167);
+   font-size: 55px;
+   
+} 
+.navegacion{
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+    list-style: none;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+
+/* Barra Ubicación carrito*/
+.contenedor nav{
+    width: 98.4%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    /*background-color: rgb(173, 44, 167);*/
+    margin-bottom: 20px; 
+}
+/*CARRITO COMPRA*/
+.nav-card{
+    display: none;
+}
+.contenedor nav button{
+    display: none;
+}
+.nav-card li{
+    list-style: none;
+    padding: 1rem;
+    font-weight: bold;
+}
+/* Fondo carrito*/
+.contenedor nav i:hover > .buy-card{
+    width: 500px;
+    height: 820px;
+    position: absolute;
+    right: 0;
+    background-color: #ffffff;
+}
+.contenedor nav i:hover .nav-card{
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10 px 0 10 px;
+    border-bottom: solid thin rgb(173, 44, 167);
+    color: rgb(0, 0, 0);
+}
+/* Botón vaciar carrito*/
+.contenedor nav i:hover .buy-card > button{
+    display: block;
+    width: 90%;
+    padding: 1rem;
+    margin: 10px auto;
+    background-color: transparent;
+    border: solid thin rgb(173, 44, 167);;
+    color: #494848;
+    cursor: pointer;
+}
+.contenedor nav i:hover .buy-card > button:hover{
+    border: solid thin rgb(173, 44, 167);
+    background-color: #f33434e7;
+    color: #000000;
+    transition: all .4s;
+}
+/* Boton carrito */
+.contenedor nav i{
+    font-size: 3.5rem;
+    cursor: pointer;
+}
+
+/* Titulo*/
+.titulo {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 4rem;
+    font-weight: 600;
+    color: rgb(173, 44, 167);
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+/* Titulos carta */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 3rem;
+    color: rgb(173, 44, 167);
+}
+
+/* Navegacion */
+.menu{
+    display: none;
+}
+@media (min-width:768px) {
+    .menu{
+        display: flex;
+    }
+}
+.navegacion a{
+    text-decoration: none;
+    color: rgb(97, 97, 97);
+    font-size: 15px;
+}
+/* Boton retornar */
+.navegacion li:last-child{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.navegacion li:last-child a{
+   font-weight: 700; 
+}
+.retornar{ 
+    background-color: rgb(165, 47, 145);
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid rgb(92, 21, 78);
+    
+}
+.navegacion li:last-child a:last-child:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(166, 26, 194);
+}
+.navegacion li:last-child a:last-child {
+    background-color: rgb(165, 47, 145);
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid rgb(92, 21, 78);
+}
+/* Seccion platos */
+.platos{
+    display: grid;
+    max-width: 11000px;
+    margin: auto;
+    grid-template-columns: 1fr;
+    row-gap: 85px;
+}
+@media (min-width:992px) {
+    .platos{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+/* Sección bebidas */
+.platos .bebidas{
+    display: grid;
+    max-width: 110000px;
+    justify-content: center;
+    margin: auto;
+    grid-template-columns: repeat(4,400px);
+    row-gap: 85px;
+}
+@media (min-width:768px) {
+    .comida--titulo{
+        text-align: center;
+        padding: 60px;
+        margin: 80px;
+        color: rgb(173, 44, 167);
+        font-weight: 1000;
+        font-size: 60px;
+    }
+}
+/* Contenedor de tarjetas */
+.plato{
+    width: 80%;
+    margin-inline:auto;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid rgba(196, 196, 196, 0.426);   
+}
+/* Tamaño Individual de tarjetas */
+.plato img{
+    width: 150px;
+    z-index: auto;
+    /*filter: drop-shadow(0 0 0.9rem rgb(121, 19, 124));*/
+    margin-top: -85px;
+}
+.lista{
+    font-size: 1rem;
+    font-weight: bolder;
+}
+.precio{
+    font-size: 1.8rem;
+    font-weight: bolder; 
+}
+.plato button{
+    padding: 1rem;
+    width: 100%;
+    background-color:rgb(165, 47, 145);
+    border: none;
+    outline: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    border: 1px solid rgb(92, 21, 78);
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+.plato button:hover{
+    background-color: rgb(92, 21, 78);
+    transition: all .3s;
+}
+/*Elementos Carrito*/
+.lista_pedidos div {
+    display: none;
+    text-align: center;
+    padding: 10px 0 0 0;
+    border-top: solid thin gray;
+    color: #000000;
+}
+.contenedor nav i:hover .buy-card > .lista_pedidos div {
+    display: flex;
+}
+.lista_pedidos img {
+    width: 90px;
+}
+.lista_pedidos p {
+    width: 300px;
+    font-size: 1rem;
+}
+.lista_pedidos p:nth-child(4) {
+    padding-left: 40px;
+}
+.lista_pedidos p:last-child span {
+    background-color:  #f33434e7;;
+    border-radius: 50%;
+    padding: 5px 10px;
+    color: #ffffff;
+}
+/* Parte final */
+.textofinal {
+    background-color: rgb(173, 44, 167);
+    text-align: center;
+  }
+
+  .anunciovideo{
+    margin: 0;
+    width: 25%;
+    height: 35%;
+    padding: 5px 12%;
+}
+
+.anunciovideo3{
+    padding: 5px 12%;
+    margin: 0;
+    width: 25%;
+    height: 35%;
+    
+}
+

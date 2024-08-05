@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Contenedor */
+.contenedor{
+    background-image: radial-gradient(circle at 91.99% 34.72%, #d2ff89 0, #b9ff91 10%, #9dff99 20%,
+            #80fb9f 30%, #62efa4 40%, #3fe0a6 50%, #06d1a7 60%, #00c4a8 70%, #00b8a9 80%, #00afab 90%, #00a7ae 100%);
+    padding-bottom: 40px;    
+}
+/* Header -Menu */
+.header{
+    padding-top: 10px;
+    width: 90%;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.headerprincipal{
+    position: fixed; /* para que este fijado */
+    top: 0;
+    padding-top: 10px;
+    width: 100%;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; /* para que se separen */
+    transition: 0.7s;
+    padding: 20px 10px;
+    justify-content: space-around;
+}
+.logotivo{
+    width:230px;
+    height:130px;
+}
+
+.logo{
+    font-weight: 1000;
+    font-size: 55px;
+    color: #9717be;
+    text-align: left;
+  }
+
+
+.navegacion{
+  display: flex;
+  align-items: baseline;
+  padding-left: 0;
+  list-style: none;
+  justify-content: space-around;
+  gap: 50px;
+  z-index: auto;
+}
+.navegacion a {
+    text-decoration: none;
+    color: rgb(97, 97, 97);
+    font-weight: 400;
+    font-size: 15px;
+  }
+
+  .logo span{
+    color: rgb(173, 44, 167);
+}
+
+.navegacion li:last-child a:last-child:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(166, 26, 194);
+}
+
+.desarrollo{
+    text-align: center;
+}
+.preguntas{
+    text-align: center;
+}
+
+  h1{
+        margin: 1px;
+        padding: 5px 12px;
+        font-size: 60px;
+        text-align: center;
+        color: #000000;
+        background:slateblue ;
+  }
+h2{
+    margin: 1px;
+    padding: 5px 12px;
+    font-size: 30px;
+    text-align: center;
+    color: #ffffff;
+    background:slateblue ;
+}
+
+.navegacion li:last-child a:last-child {
+    background-color: rgb(165, 47, 145);
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid rgb(92, 21, 78);
+}
+

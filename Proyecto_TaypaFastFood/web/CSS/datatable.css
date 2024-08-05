@@ -1,0 +1,68 @@
+body {
+    background-image: radial-gradient(circle at 91.99% 34.72%, #d2ff89 0, #b9ff91 10%, #9dff99 20%,
+            #80fb9f 30%, #62efa4 40%, #3fe0a6 50%, #06d1a7 60%, #00c4a8 70%, #00b8a9 80%, #00afab 90%, #00a7ae 100%);
+}
+
+.centered {
+    text-align: center !important;
+    vertical-align: middle !important;
+}
+h1{
+    color: rgb(182, 11, 197);
+    margin: 1px;
+    padding: 5px 12px;
+    font-size: 60px;
+    text-align: center;
+    color: #ffffff;
+    background:slateblue ;
+      
+}
+.navegacion {
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+    list-style: none;
+}
+
+.header {
+    padding-top: 10px;
+    width: 90%;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+}
+.logo span {
+    color: rgb(173, 44, 167);
+}
+.logo {
+    font-weight: 1000;
+    font-size: 60px;
+}
+.navegacion a {
+    text-decoration: none;
+    color: rgb(97, 97, 97);
+    font-weight: 400;
+    font-size: 15px;
+}
+.navegacion {
+    gap: 50px;
+}
+
+table{
+    font-size: 24px;
+}
+
+form.procesar{
+    font-size: 25px;
+}
+
+form.procesar.boton{
+    color: rgb(255, 0, 200);
+    border-radius: 20px;
+
+}

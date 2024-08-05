@@ -1,0 +1,720 @@
+16-Jul-2024 16:56:00.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/10.1.12
+16-Jul-2024 16:56:00.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Aug 8 2023 19:16:13 UTC
+16-Jul-2024 16:56:00.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     10.1.12.0
+16-Jul-2024 16:56:00.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 10
+16-Jul-2024 16:56:00.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+16-Jul-2024 16:56:00.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+16-Jul-2024 16:56:00.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-17
+16-Jul-2024 16:56:00.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       17.0.7+8-LTS-224
+16-Jul-2024 16:56:00.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+16-Jul-2024 16:56:00.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12
+16-Jul-2024 16:56:00.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12
+16-Jul-2024 16:56:00.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\logging.properties
+16-Jul-2024 16:56:00.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Jul-2024 16:56:00.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+16-Jul-2024 16:56:00.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Jul-2024 16:56:00.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Jul-2024 16:56:00.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+16-Jul-2024 16:56:00.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+16-Jul-2024 16:56:00.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+16-Jul-2024 16:56:00.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Jul-2024 16:56:00.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12
+16-Jul-2024 16:56:00.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12
+16-Jul-2024 16:56:00.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\temp
+16-Jul-2024 16:56:00.487 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [2.0.5] con la versión APR [1.7.4].
+16-Jul-2024 16:56:00.570 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 3.0.10 1 Aug 2023]
+16-Jul-2024 16:56:00.788 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+16-Jul-2024 16:56:00.810 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [577] milliseconds
+16-Jul-2024 16:56:00.867 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+16-Jul-2024 16:56:00.868 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.12]
+16-Jul-2024 16:56:00.878 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_DWI.xml]
+16-Jul-2024 16:56:00.896 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Proyecto_DWI] in deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_DWI.xml] has been ignored
+16-Jul-2024 16:56:00.949 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error durante el despliegue del descriptor de configuración [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_DWI.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:686)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:713)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:641)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1927)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:534)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:424)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1656)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:309)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:893)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:846)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1328)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1318)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:241)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:428)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:918)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@17503f6b]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4571)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4704)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\EDWARD\Downloads\Nueva carpeta\Proyecto_Avance_DWI\build\web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+16-Jul-2024 16:56:01.000 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_DWI.xml] has finished in [120] ms
+16-Jul-2024 16:56:01.000 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml]
+16-Jul-2024 16:56:01.001 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Proyecto_TaypaFastFood] in deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml] has been ignored
+16-Jul-2024 16:56:01.006 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error durante el despliegue del descriptor de configuración [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:686)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:713)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:641)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1927)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:534)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:424)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1656)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:309)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:893)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:846)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1328)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1318)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:241)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:428)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:918)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@3e78b6a5]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4571)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4704)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\EDWARD\Downloads\ATF-2\Proyecto_TaypaFastFood\build\web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+16-Jul-2024 16:56:01.097 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml] has finished in [97] ms
+16-Jul-2024 16:56:01.097 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\pryBootstrap.xml]
+16-Jul-2024 16:56:01.098 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/pryBootstrap] in deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\pryBootstrap.xml] has been ignored
+16-Jul-2024 16:56:01.103 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error durante el despliegue del descriptor de configuración [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\pryBootstrap.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:686)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:713)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:641)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1927)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:534)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:424)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1656)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:309)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:893)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:846)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1328)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1318)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:241)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:428)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:918)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@24105dc5]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4571)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4704)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\EDWARD\Downloads\Semana 9\pryBootstrap\build\web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+16-Jul-2024 16:56:01.160 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\pryBootstrap.xml] has finished in [63] ms
+16-Jul-2024 16:56:01.160 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\pryWebInicio.xml]
+16-Jul-2024 16:56:01.169 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/pryWebInicio] in deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\pryWebInicio.xml] has been ignored
+16-Jul-2024 16:56:01.456 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\pryWebInicio.xml] has finished in [295] ms
+16-Jul-2024 16:56:01.456 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\webapps\docs] de la aplicación web
+16-Jul-2024 16:56:01.539 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\webapps\docs] has finished in [83] ms
+16-Jul-2024 16:56:01.539 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\webapps\examples] de la aplicación web
+16-Jul-2024 16:56:02.177 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\webapps\examples] has finished in [638] ms
+16-Jul-2024 16:56:02.177 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\webapps\host-manager] de la aplicación web
+16-Jul-2024 16:56:02.205 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\webapps\host-manager] has finished in [27] ms
+16-Jul-2024 16:56:02.205 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\webapps\manager] de la aplicación web
+16-Jul-2024 16:56:02.231 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\webapps\manager] has finished in [26] ms
+16-Jul-2024 16:56:02.231 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\webapps\ROOT] de la aplicación web
+16-Jul-2024 16:56:02.247 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\webapps\ROOT] has finished in [16] ms
+16-Jul-2024 16:56:02.249 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Jul-2024 16:56:02.290 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1479] milliseconds
+16-Jul-2024 16:56:04.701 INFO [http-nio-8080-exec-8] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/Proyecto_TaypaFastFood]
+16-Jul-2024 16:56:04.717 INFO [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml]
+16-Jul-2024 16:56:04.717 WARNING [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Proyecto_TaypaFastFood] in deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml] has been ignored
+16-Jul-2024 16:56:04.972 INFO [http-nio-8080-exec-3] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+16-Jul-2024 16:56:04.983 INFO [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml] has finished in [267] ms
+16-Jul-2024 16:56:04.985 INFO [http-nio-8080-exec-4] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Proyecto_TaypaFastFood]] after start() had already been called. The second call will be ignored.
+16-Jul-2024 16:56:08.668 INFO [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/Proyecto_TaypaFastFood]
+16-Jul-2024 16:56:08.679 INFO [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml]
+16-Jul-2024 16:56:08.680 WARNING [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Proyecto_TaypaFastFood] in deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml] has been ignored
+16-Jul-2024 16:56:08.930 INFO [http-nio-8080-exec-9] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+16-Jul-2024 16:56:08.941 INFO [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml] has finished in [262] ms
+16-Jul-2024 16:56:08.943 INFO [http-nio-8080-exec-2] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Proyecto_TaypaFastFood]] after start() had already been called. The second call will be ignored.
+16-Jul-2024 16:56:30.873 INFO [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/Proyecto_TaypaFastFood]
+16-Jul-2024 16:56:30.885 INFO [http-nio-8080-exec-14] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml]
+16-Jul-2024 16:56:30.887 WARNING [http-nio-8080-exec-14] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Proyecto_TaypaFastFood] in deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml] has been ignored
+16-Jul-2024 16:56:31.112 INFO [http-nio-8080-exec-14] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+16-Jul-2024 16:56:31.122 INFO [http-nio-8080-exec-14] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml] has finished in [237] ms
+16-Jul-2024 16:56:31.124 INFO [http-nio-8080-exec-9] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Proyecto_TaypaFastFood]] after start() had already been called. The second call will be ignored.
+16-Jul-2024 17:03:38.329 INFO [http-nio-8080-exec-22] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/Proyecto_TaypaFastFood]
+16-Jul-2024 17:03:38.336 INFO [http-nio-8080-exec-17] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml]
+16-Jul-2024 17:03:38.336 WARNING [http-nio-8080-exec-17] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Proyecto_TaypaFastFood] in deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml] has been ignored
+16-Jul-2024 17:03:38.551 INFO [http-nio-8080-exec-17] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+16-Jul-2024 17:03:38.560 INFO [http-nio-8080-exec-17] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml] has finished in [224] ms
+16-Jul-2024 17:03:38.562 INFO [http-nio-8080-exec-21] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Proyecto_TaypaFastFood]] after start() had already been called. The second call will be ignored.
+16-Jul-2024 17:03:48.264 INFO [http-nio-8080-exec-21] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/Proyecto_TaypaFastFood]
+16-Jul-2024 17:03:48.269 INFO [http-nio-8080-exec-26] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml]
+16-Jul-2024 17:03:48.270 WARNING [http-nio-8080-exec-26] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Proyecto_TaypaFastFood] in deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml] has been ignored
+16-Jul-2024 17:03:48.494 INFO [http-nio-8080-exec-26] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+16-Jul-2024 17:03:48.502 INFO [http-nio-8080-exec-26] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml] has finished in [233] ms
+16-Jul-2024 17:03:48.505 INFO [http-nio-8080-exec-24] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Proyecto_TaypaFastFood]] after start() had already been called. The second call will be ignored.
+16-Jul-2024 17:03:58.336 INFO [http-nio-8080-exec-27] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/Proyecto_TaypaFastFood]
+16-Jul-2024 17:03:58.347 INFO [http-nio-8080-exec-26] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml]
+16-Jul-2024 17:03:58.348 WARNING [http-nio-8080-exec-26] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Proyecto_TaypaFastFood] in deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml] has been ignored
+16-Jul-2024 17:03:58.551 INFO [http-nio-8080-exec-26] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+16-Jul-2024 17:03:58.559 INFO [http-nio-8080-exec-26] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml] has finished in [212] ms
+16-Jul-2024 17:03:58.562 INFO [http-nio-8080-exec-24] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Proyecto_TaypaFastFood]] after start() had already been called. The second call will be ignored.
+16-Jul-2024 17:04:51.636 INFO [http-nio-8080-exec-30] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/Proyecto_TaypaFastFood]
+16-Jul-2024 17:04:51.647 INFO [http-nio-8080-exec-29] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml]
+16-Jul-2024 17:04:51.648 WARNING [http-nio-8080-exec-29] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Proyecto_TaypaFastFood] in deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml] has been ignored
+16-Jul-2024 17:04:51.847 INFO [http-nio-8080-exec-29] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+16-Jul-2024 17:04:51.855 INFO [http-nio-8080-exec-29] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml] has finished in [208] ms
+16-Jul-2024 17:04:51.857 INFO [http-nio-8080-exec-31] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Proyecto_TaypaFastFood]] after start() had already been called. The second call will be ignored.
+16-Jul-2024 17:05:30.486 INFO [http-nio-8080-exec-36] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/Proyecto_TaypaFastFood]
+16-Jul-2024 17:05:30.493 INFO [http-nio-8080-exec-29] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml]
+16-Jul-2024 17:05:30.494 WARNING [http-nio-8080-exec-29] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Proyecto_TaypaFastFood] in deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml] has been ignored
+16-Jul-2024 17:05:30.697 INFO [http-nio-8080-exec-29] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+16-Jul-2024 17:05:30.705 INFO [http-nio-8080-exec-29] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml] has finished in [212] ms
+16-Jul-2024 17:05:30.707 INFO [http-nio-8080-exec-30] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Proyecto_TaypaFastFood]] after start() had already been called. The second call will be ignored.
+16-Jul-2024 17:05:51.014 INFO [http-nio-8080-exec-38] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/Proyecto_TaypaFastFood]
+16-Jul-2024 17:05:51.020 INFO [http-nio-8080-exec-36] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml]
+16-Jul-2024 17:05:51.021 WARNING [http-nio-8080-exec-36] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Proyecto_TaypaFastFood] in deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml] has been ignored
+16-Jul-2024 17:05:51.235 INFO [http-nio-8080-exec-36] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+16-Jul-2024 17:05:51.243 INFO [http-nio-8080-exec-36] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml] has finished in [223] ms
+16-Jul-2024 17:05:51.245 INFO [http-nio-8080-exec-31] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Proyecto_TaypaFastFood]] after start() had already been called. The second call will be ignored.
+16-Jul-2024 17:06:12.312 INFO [http-nio-8080-exec-41] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/Proyecto_TaypaFastFood]
+16-Jul-2024 17:06:12.331 INFO [http-nio-8080-exec-40] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml]
+16-Jul-2024 17:06:12.331 WARNING [http-nio-8080-exec-40] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Proyecto_TaypaFastFood] in deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml] has been ignored
+16-Jul-2024 17:06:12.531 INFO [http-nio-8080-exec-40] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+16-Jul-2024 17:06:12.539 INFO [http-nio-8080-exec-40] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml] has finished in [208] ms
+16-Jul-2024 17:06:12.541 INFO [http-nio-8080-exec-30] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Proyecto_TaypaFastFood]] after start() had already been called. The second call will be ignored.
+16-Jul-2024 17:06:27.051 INFO [http-nio-8080-exec-41] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/Proyecto_TaypaFastFood]
+16-Jul-2024 17:06:27.059 INFO [http-nio-8080-exec-34] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml]
+16-Jul-2024 17:06:27.060 WARNING [http-nio-8080-exec-34] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Proyecto_TaypaFastFood] in deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml] has been ignored
+16-Jul-2024 17:06:27.265 INFO [http-nio-8080-exec-34] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+16-Jul-2024 17:06:27.273 INFO [http-nio-8080-exec-34] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml] has finished in [214] ms
+16-Jul-2024 17:06:27.275 INFO [http-nio-8080-exec-38] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Proyecto_TaypaFastFood]] after start() had already been called. The second call will be ignored.
+16-Jul-2024 17:07:54.158 INFO [http-nio-8080-exec-53] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/Proyecto_TaypaFastFood]
+16-Jul-2024 17:07:54.169 INFO [http-nio-8080-exec-48] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml]
+16-Jul-2024 17:07:54.169 WARNING [http-nio-8080-exec-48] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Proyecto_TaypaFastFood] in deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml] has been ignored
+16-Jul-2024 17:07:54.372 INFO [http-nio-8080-exec-48] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+16-Jul-2024 17:07:54.379 INFO [http-nio-8080-exec-48] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml] has finished in [210] ms
+16-Jul-2024 17:07:54.381 INFO [http-nio-8080-exec-50] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Proyecto_TaypaFastFood]] after start() had already been called. The second call will be ignored.
+16-Jul-2024 17:08:44.097 INFO [http-nio-8080-exec-56] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/Proyecto_TaypaFastFood]
+16-Jul-2024 17:08:44.104 INFO [http-nio-8080-exec-48] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml]
+16-Jul-2024 17:08:44.104 WARNING [http-nio-8080-exec-48] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Proyecto_TaypaFastFood] in deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml] has been ignored
+16-Jul-2024 17:08:44.303 INFO [http-nio-8080-exec-48] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+16-Jul-2024 17:08:44.311 INFO [http-nio-8080-exec-48] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml] has finished in [207] ms
+16-Jul-2024 17:08:44.313 INFO [http-nio-8080-exec-55] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Proyecto_TaypaFastFood]] after start() had already been called. The second call will be ignored.
+16-Jul-2024 17:54:19.986 INFO [http-nio-8080-exec-62] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/Proyecto_TaypaFastFood]
+16-Jul-2024 17:54:19.993 INFO [http-nio-8080-exec-65] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml]
+16-Jul-2024 17:54:19.994 WARNING [http-nio-8080-exec-65] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Proyecto_TaypaFastFood] in deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml] has been ignored
+16-Jul-2024 17:54:20.208 INFO [http-nio-8080-exec-65] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+16-Jul-2024 17:54:20.215 INFO [http-nio-8080-exec-65] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml] has finished in [222] ms
+16-Jul-2024 17:54:20.217 INFO [http-nio-8080-exec-60] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Proyecto_TaypaFastFood]] after start() had already been called. The second call will be ignored.
+16-Jul-2024 17:59:27.969 INFO [http-nio-8080-exec-72] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/Proyecto_TaypaFastFood]
+16-Jul-2024 17:59:27.975 INFO [http-nio-8080-exec-78] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml]
+16-Jul-2024 17:59:27.976 WARNING [http-nio-8080-exec-78] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Proyecto_TaypaFastFood] in deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml] has been ignored
+16-Jul-2024 17:59:28.180 INFO [http-nio-8080-exec-78] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+16-Jul-2024 17:59:28.187 INFO [http-nio-8080-exec-78] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml] has finished in [212] ms
+16-Jul-2024 17:59:28.189 INFO [http-nio-8080-exec-75] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Proyecto_TaypaFastFood]] after start() had already been called. The second call will be ignored.
+16-Jul-2024 18:11:52.201 INFO [http-nio-8080-exec-79] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/Proyecto_TaypaFastFood]
+16-Jul-2024 18:11:52.208 INFO [http-nio-8080-exec-88] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml]
+16-Jul-2024 18:11:52.209 WARNING [http-nio-8080-exec-88] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Proyecto_TaypaFastFood] in deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml] has been ignored
+16-Jul-2024 18:11:52.407 INFO [http-nio-8080-exec-88] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+16-Jul-2024 18:11:52.414 INFO [http-nio-8080-exec-88] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml] has finished in [206] ms
+16-Jul-2024 18:11:52.416 INFO [http-nio-8080-exec-83] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Proyecto_TaypaFastFood]] after start() had already been called. The second call will be ignored.
+16-Jul-2024 18:24:18.762 INFO [http-nio-8080-exec-92] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/Proyecto_TaypaFastFood]
+16-Jul-2024 18:24:19.279 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/Proyecto_TaypaFastFood]
+16-Jul-2024 18:24:26.043 INFO [http-nio-8080-exec-99] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml]
+16-Jul-2024 18:24:26.044 WARNING [http-nio-8080-exec-99] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Proyecto_TaypaFastFood] in deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml] has been ignored
+16-Jul-2024 18:24:26.247 INFO [http-nio-8080-exec-99] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+16-Jul-2024 18:24:26.254 INFO [http-nio-8080-exec-99] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml] has finished in [211] ms
+16-Jul-2024 18:24:26.256 INFO [http-nio-8080-exec-98] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Proyecto_TaypaFastFood]] after start() had already been called. The second call will be ignored.
+16-Jul-2024 18:26:27.998 INFO [http-nio-8080-exec-107] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/Proyecto_TaypaFastFood]
+16-Jul-2024 18:26:28.004 INFO [http-nio-8080-exec-99] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml]
+16-Jul-2024 18:26:28.005 WARNING [http-nio-8080-exec-99] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Proyecto_TaypaFastFood] in deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml] has been ignored
+16-Jul-2024 18:26:28.202 INFO [http-nio-8080-exec-99] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+16-Jul-2024 18:26:28.209 INFO [http-nio-8080-exec-99] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml] has finished in [205] ms
+16-Jul-2024 18:26:28.211 INFO [http-nio-8080-exec-102] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Proyecto_TaypaFastFood]] after start() had already been called. The second call will be ignored.
+16-Jul-2024 18:41:25.832 INFO [http-nio-8080-exec-110] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/Proyecto_TaypaFastFood]
+16-Jul-2024 18:41:25.838 INFO [http-nio-8080-exec-111] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml]
+16-Jul-2024 18:41:25.839 WARNING [http-nio-8080-exec-111] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Proyecto_TaypaFastFood] in deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml] has been ignored
+16-Jul-2024 18:41:26.049 INFO [http-nio-8080-exec-111] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+16-Jul-2024 18:41:26.056 INFO [http-nio-8080-exec-111] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml] has finished in [218] ms
+16-Jul-2024 18:41:26.058 INFO [http-nio-8080-exec-108] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Proyecto_TaypaFastFood]] after start() had already been called. The second call will be ignored.
+16-Jul-2024 18:53:29.763 INFO [http-nio-8080-exec-127] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/Proyecto_TaypaFastFood]
+16-Jul-2024 18:53:29.778 INFO [http-nio-8080-exec-119] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml]
+16-Jul-2024 18:53:29.778 WARNING [http-nio-8080-exec-119] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Proyecto_TaypaFastFood] in deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml] has been ignored
+16-Jul-2024 18:53:29.988 INFO [http-nio-8080-exec-119] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+16-Jul-2024 18:53:29.994 INFO [http-nio-8080-exec-119] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml] has finished in [216] ms
+16-Jul-2024 18:53:29.996 INFO [http-nio-8080-exec-124] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Proyecto_TaypaFastFood]] after start() had already been called. The second call will be ignored.
+16-Jul-2024 19:19:00.152 INFO [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+16-Jul-2024 19:19:00.153 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+16-Jul-2024 19:19:00.160 INFO [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+16-Jul-2024 19:19:00.168 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+16-Jul-2024 19:19:00.171 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+16-Jul-2024 19:20:57.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/10.1.12
+16-Jul-2024 19:20:57.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Aug 8 2023 19:16:13 UTC
+16-Jul-2024 19:20:57.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     10.1.12.0
+16-Jul-2024 19:20:57.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 10
+16-Jul-2024 19:20:57.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+16-Jul-2024 19:20:57.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+16-Jul-2024 19:20:57.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-17
+16-Jul-2024 19:20:57.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       17.0.7+8-LTS-224
+16-Jul-2024 19:20:57.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+16-Jul-2024 19:20:57.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12
+16-Jul-2024 19:20:57.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12
+16-Jul-2024 19:20:57.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\logging.properties
+16-Jul-2024 19:20:57.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Jul-2024 19:20:57.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+16-Jul-2024 19:20:57.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Jul-2024 19:20:57.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Jul-2024 19:20:57.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+16-Jul-2024 19:20:57.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+16-Jul-2024 19:20:57.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+16-Jul-2024 19:20:57.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Jul-2024 19:20:57.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12
+16-Jul-2024 19:20:57.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12
+16-Jul-2024 19:20:57.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\temp
+16-Jul-2024 19:20:57.832 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [2.0.5] con la versión APR [1.7.4].
+16-Jul-2024 19:20:57.868 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 3.0.10 1 Aug 2023]
+16-Jul-2024 19:20:58.061 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+16-Jul-2024 19:20:58.078 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [438] milliseconds
+16-Jul-2024 19:20:58.114 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+16-Jul-2024 19:20:58.114 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.12]
+16-Jul-2024 19:20:58.122 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_DWI.xml]
+16-Jul-2024 19:20:58.138 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Proyecto_DWI] in deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_DWI.xml] has been ignored
+16-Jul-2024 19:20:58.168 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error durante el despliegue del descriptor de configuración [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_DWI.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:686)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:713)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:641)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1927)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:534)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:424)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1656)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:309)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:893)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:846)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1328)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1318)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:241)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:428)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:918)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@74287ea3]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4571)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4704)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\EDWARD\Downloads\Nueva carpeta\Proyecto_Avance_DWI\build\web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+16-Jul-2024 19:20:58.174 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_DWI.xml] has finished in [51] ms
+16-Jul-2024 19:20:58.174 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml]
+16-Jul-2024 19:20:58.175 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Proyecto_TaypaFastFood] in deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml] has been ignored
+16-Jul-2024 19:20:58.711 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+16-Jul-2024 19:20:58.784 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml] has finished in [610] ms
+16-Jul-2024 19:20:58.784 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\pryBootstrap.xml]
+16-Jul-2024 19:20:58.785 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/pryBootstrap] in deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\pryBootstrap.xml] has been ignored
+16-Jul-2024 19:20:58.789 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error durante el despliegue del descriptor de configuración [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\pryBootstrap.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:686)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:713)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:641)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1927)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:534)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:424)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1656)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:309)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:893)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:846)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1328)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1318)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:241)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:428)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:918)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@33db72bd]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4571)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4704)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\EDWARD\Downloads\Semana 9\pryBootstrap\build\web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+16-Jul-2024 19:20:58.846 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\pryBootstrap.xml] has finished in [62] ms
+16-Jul-2024 19:20:58.847 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\pryWebInicio.xml]
+16-Jul-2024 19:20:58.847 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/pryWebInicio] in deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\pryWebInicio.xml] has been ignored
+16-Jul-2024 19:20:58.877 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\pryWebInicio.xml] has finished in [30] ms
+16-Jul-2024 19:20:58.877 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\webapps\docs] de la aplicación web
+16-Jul-2024 19:20:58.899 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\webapps\docs] has finished in [22] ms
+16-Jul-2024 19:20:58.899 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\webapps\examples] de la aplicación web
+16-Jul-2024 19:20:59.338 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\webapps\examples] has finished in [439] ms
+16-Jul-2024 19:20:59.338 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\webapps\host-manager] de la aplicación web
+16-Jul-2024 19:20:59.366 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\webapps\host-manager] has finished in [28] ms
+16-Jul-2024 19:20:59.366 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\webapps\manager] de la aplicación web
+16-Jul-2024 19:20:59.395 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\webapps\manager] has finished in [29] ms
+16-Jul-2024 19:20:59.395 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\webapps\ROOT] de la aplicación web
+16-Jul-2024 19:20:59.411 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\webapps\ROOT] has finished in [15] ms
+16-Jul-2024 19:20:59.414 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Jul-2024 19:20:59.448 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1370] milliseconds
+16-Jul-2024 19:21:01.314 INFO [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/Proyecto_TaypaFastFood]
+16-Jul-2024 19:21:01.331 INFO [http-nio-8080-exec-6] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml]
+16-Jul-2024 19:21:01.332 WARNING [http-nio-8080-exec-6] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Proyecto_TaypaFastFood] in deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml] has been ignored
+16-Jul-2024 19:21:01.604 INFO [http-nio-8080-exec-6] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+16-Jul-2024 19:21:01.615 INFO [http-nio-8080-exec-6] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml] has finished in [284] ms
+16-Jul-2024 19:21:01.618 INFO [http-nio-8080-exec-1] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Proyecto_TaypaFastFood]] after start() had already been called. The second call will be ignored.
+16-Jul-2024 19:22:23.173 INFO [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/Proyecto_TaypaFastFood]
+16-Jul-2024 19:22:23.181 INFO [http-nio-8080-exec-16] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml]
+16-Jul-2024 19:22:23.182 WARNING [http-nio-8080-exec-16] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Proyecto_TaypaFastFood] in deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml] has been ignored
+16-Jul-2024 19:22:23.407 INFO [http-nio-8080-exec-16] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+16-Jul-2024 19:22:23.418 INFO [http-nio-8080-exec-16] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml] has finished in [238] ms
+16-Jul-2024 19:22:23.421 INFO [http-nio-8080-exec-12] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Proyecto_TaypaFastFood]] after start() had already been called. The second call will be ignored.
+16-Jul-2024 20:05:51.746 INFO [http-nio-8080-exec-26] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Proyecto_TaypaFastFood]
+16-Jul-2024 20:05:51.986 INFO [http-nio-8080-exec-26] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+16-Jul-2024 20:05:51.994 INFO [http-nio-8080-exec-26] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+16-Jul-2024 20:05:52.308 INFO [http-nio-8080-exec-24] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Proyecto_TaypaFastFood]
+16-Jul-2024 20:05:52.534 INFO [http-nio-8080-exec-24] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+16-Jul-2024 20:05:52.545 INFO [http-nio-8080-exec-24] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+16-Jul-2024 20:11:29.828 INFO [http-nio-8080-exec-30] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Proyecto_TaypaFastFood]
+16-Jul-2024 20:11:30.035 INFO [http-nio-8080-exec-30] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+16-Jul-2024 20:11:30.043 INFO [http-nio-8080-exec-30] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+16-Jul-2024 20:11:57.263 INFO [http-nio-8080-exec-28] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Proyecto_TaypaFastFood]
+16-Jul-2024 20:11:57.490 INFO [http-nio-8080-exec-28] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+16-Jul-2024 20:11:57.500 INFO [http-nio-8080-exec-28] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+16-Jul-2024 20:11:57.621 INFO [http-nio-8080-exec-32] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Proyecto_TaypaFastFood]
+16-Jul-2024 20:11:57.829 INFO [http-nio-8080-exec-32] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+16-Jul-2024 20:11:57.836 INFO [http-nio-8080-exec-32] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+16-Jul-2024 20:12:26.093 INFO [http-nio-8080-exec-35] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Proyecto_TaypaFastFood]
+16-Jul-2024 20:12:26.295 INFO [http-nio-8080-exec-35] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+16-Jul-2024 20:12:26.302 INFO [http-nio-8080-exec-35] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+16-Jul-2024 21:09:03.436 INFO [http-nio-8080-exec-42] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/Proyecto_TaypaFastFood]
+16-Jul-2024 21:09:03.444 INFO [http-nio-8080-exec-43] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml]
+16-Jul-2024 21:09:03.445 WARNING [http-nio-8080-exec-43] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Proyecto_TaypaFastFood] in deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml] has been ignored
+16-Jul-2024 21:09:03.658 INFO [http-nio-8080-exec-43] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+16-Jul-2024 21:09:03.666 INFO [http-nio-8080-exec-43] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml] has finished in [222] ms
+16-Jul-2024 21:09:03.669 INFO [http-nio-8080-exec-45] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Proyecto_TaypaFastFood]] after start() had already been called. The second call will be ignored.
+16-Jul-2024 21:52:31.825 INFO [http-nio-8080-exec-55] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/Proyecto_TaypaFastFood]
+16-Jul-2024 21:52:31.848 INFO [http-nio-8080-exec-50] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml]
+16-Jul-2024 21:52:31.850 WARNING [http-nio-8080-exec-50] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Proyecto_TaypaFastFood] in deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml] has been ignored
+16-Jul-2024 21:52:32.065 INFO [http-nio-8080-exec-50] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+16-Jul-2024 21:52:32.072 INFO [http-nio-8080-exec-50] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml] has finished in [224] ms
+16-Jul-2024 21:52:32.074 INFO [http-nio-8080-exec-49] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Proyecto_TaypaFastFood]] after start() had already been called. The second call will be ignored.
+16-Jul-2024 23:33:18.377 INFO [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+16-Jul-2024 23:33:18.377 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+16-Jul-2024 23:33:18.384 INFO [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+16-Jul-2024 23:33:18.391 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+16-Jul-2024 23:33:18.395 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+16-Jul-2024 23:42:55.449 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/10.1.12
+16-Jul-2024 23:42:55.453 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Aug 8 2023 19:16:13 UTC
+16-Jul-2024 23:42:55.453 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     10.1.12.0
+16-Jul-2024 23:42:55.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 10
+16-Jul-2024 23:42:55.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+16-Jul-2024 23:42:55.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+16-Jul-2024 23:42:55.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-17
+16-Jul-2024 23:42:55.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       17.0.7+8-LTS-224
+16-Jul-2024 23:42:55.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+16-Jul-2024 23:42:55.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12
+16-Jul-2024 23:42:55.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12
+16-Jul-2024 23:42:55.462 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\logging.properties
+16-Jul-2024 23:42:55.463 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Jul-2024 23:42:55.463 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+16-Jul-2024 23:42:55.463 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Jul-2024 23:42:55.463 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Jul-2024 23:42:55.463 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+16-Jul-2024 23:42:55.463 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+16-Jul-2024 23:42:55.463 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+16-Jul-2024 23:42:55.463 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Jul-2024 23:42:55.463 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12
+16-Jul-2024 23:42:55.463 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12
+16-Jul-2024 23:42:55.463 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\temp
+16-Jul-2024 23:42:55.525 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [2.0.5] con la versión APR [1.7.4].
+16-Jul-2024 23:42:55.531 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 3.0.10 1 Aug 2023]
+16-Jul-2024 23:42:55.719 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+16-Jul-2024 23:42:55.742 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [470] milliseconds
+16-Jul-2024 23:42:55.782 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+16-Jul-2024 23:42:55.782 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.12]
+16-Jul-2024 23:42:55.791 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_DWI.xml]
+16-Jul-2024 23:42:55.805 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Proyecto_DWI] in deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_DWI.xml] has been ignored
+16-Jul-2024 23:42:55.833 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error durante el despliegue del descriptor de configuración [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_DWI.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:686)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:713)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:641)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1927)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:534)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:424)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1656)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:309)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:893)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:846)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1328)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1318)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:241)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:428)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:918)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@3bcd05cb]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4571)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4704)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\EDWARD\Downloads\Nueva carpeta\Proyecto_Avance_DWI\build\web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+16-Jul-2024 23:42:55.856 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_DWI.xml] has finished in [63] ms
+16-Jul-2024 23:42:55.856 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml]
+16-Jul-2024 23:42:55.858 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Proyecto_TaypaFastFood] in deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml] has been ignored
+16-Jul-2024 23:42:56.452 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+16-Jul-2024 23:42:56.517 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml] has finished in [661] ms
+16-Jul-2024 23:42:56.518 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\pryBootstrap.xml]
+16-Jul-2024 23:42:56.518 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/pryBootstrap] in deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\pryBootstrap.xml] has been ignored
+16-Jul-2024 23:42:56.522 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error durante el despliegue del descriptor de configuración [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\pryBootstrap.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:686)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:713)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:641)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1927)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:534)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:424)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1656)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:309)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:893)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:846)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1328)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1318)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:241)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:428)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:918)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@37ce3644]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4571)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4704)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\EDWARD\Downloads\Semana 9\pryBootstrap\build\web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+16-Jul-2024 23:42:56.563 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\pryBootstrap.xml] has finished in [45] ms
+16-Jul-2024 23:42:56.564 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\pryWebInicio.xml]
+16-Jul-2024 23:42:56.564 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/pryWebInicio] in deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\pryWebInicio.xml] has been ignored
+16-Jul-2024 23:42:56.595 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\pryWebInicio.xml] has finished in [32] ms
+16-Jul-2024 23:42:56.596 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\webapps\docs] de la aplicación web
+16-Jul-2024 23:42:56.619 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\webapps\docs] has finished in [23] ms
+16-Jul-2024 23:42:56.619 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\webapps\examples] de la aplicación web
+16-Jul-2024 23:42:57.056 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\webapps\examples] has finished in [437] ms
+16-Jul-2024 23:42:57.056 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\webapps\host-manager] de la aplicación web
+16-Jul-2024 23:42:57.081 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\webapps\host-manager] has finished in [25] ms
+16-Jul-2024 23:42:57.081 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\webapps\manager] de la aplicación web
+16-Jul-2024 23:42:57.105 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\webapps\manager] has finished in [24] ms
+16-Jul-2024 23:42:57.105 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\webapps\ROOT] de la aplicación web
+16-Jul-2024 23:42:57.120 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\webapps\ROOT] has finished in [15] ms
+16-Jul-2024 23:42:57.123 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Jul-2024 23:42:57.156 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1413] milliseconds
+16-Jul-2024 23:42:59.137 INFO [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/Proyecto_TaypaFastFood]
+16-Jul-2024 23:42:59.157 INFO [http-nio-8080-exec-8] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml]
+16-Jul-2024 23:42:59.158 WARNING [http-nio-8080-exec-8] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Proyecto_TaypaFastFood] in deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml] has been ignored
+16-Jul-2024 23:42:59.403 INFO [http-nio-8080-exec-8] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+16-Jul-2024 23:42:59.417 INFO [http-nio-8080-exec-8] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\conf\Catalina\localhost\Proyecto_TaypaFastFood.xml] has finished in [260] ms
+16-Jul-2024 23:42:59.420 INFO [http-nio-8080-exec-4] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Proyecto_TaypaFastFood]] after start() had already been called. The second call will be ignored.
+16-Jul-2024 23:55:45.889 INFO [http-nio-8080-exec-13] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Proyecto_TaypaFastFood]
+16-Jul-2024 23:55:46.437 INFO [http-nio-8080-exec-13] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+16-Jul-2024 23:55:46.452 INFO [http-nio-8080-exec-13] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+16-Jul-2024 23:55:47.444 INFO [http-nio-8080-exec-12] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Proyecto_TaypaFastFood]
+16-Jul-2024 23:55:47.899 INFO [http-nio-8080-exec-12] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+16-Jul-2024 23:55:47.908 INFO [http-nio-8080-exec-12] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto

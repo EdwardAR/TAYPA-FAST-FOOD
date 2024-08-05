@@ -1,0 +1,207 @@
+[
+    {
+      "id": 1,
+      "name": "Lana Graham",
+      "email": "lana@april.com",
+      "address": {
+        "city": "Av Arequipa 1123"
+      },
+      "phone": "963128356",
+      "pedido": "Hamburguesa Doble carne"
+      
+    },
+    {
+      "id": 2,
+      "name": "Kevin Vargas",
+      "email": "kevin@outlook.com",
+      "address": {
+        "city": "Av Petit Thuars 3212"
+      },
+      "phone": "980456234",
+      "pedido": "Salchi Taypa"
+    },
+    {
+      "id": 3,
+      "name": "Jose Rivera",
+      "email": "jose@outlook.com",
+      "address": {
+        "city": "Av Javier Prado 1421"
+      },
+      "phone": "99340128",
+      "pedido": "Alitas BBQ(x3) y Limonada helada(x3)"
+
+    },
+    {
+      "id": 4,
+      "name": "Patricia Pacheco",
+      "email": "patricia.pacheco@gmail.com",
+      "address": {
+        "city": "Av Bolognesi 4521"
+      },
+      "phone": "931709623",
+      "pedido": "Club Sandwich"
+    },
+    {
+      "id": 5,
+      "name": "Lucio Zegarra",
+      "email": "lucio.z@gmail.com",
+      "address": {
+        "city": "Av 6 de agosto 2378"
+      },
+      "phone": "954128942",
+      "pedido": "Bisteck a lo Pobre"
+    },
+    {
+      "id": 6,
+      "name": "George Washinton",
+      "email": "george@hotmail.com",
+      "address": {
+        "city": "Av Estados Unidos 5412"
+      },
+      "phone": "935847843",
+      "pedido": "Tallarin Saltado,Alitas BBQ, Club Sandwich, Chicha Morada y Limonada(x2)"
+    },
+    {
+      "id": 7,
+      "name": "Ysamar Balcazar",
+      "email": "ysamar.b@outlook.es",
+      "address": {
+        "city": "Av Cesar Vallejo 2812"
+      },
+      "phone": "972348124",
+      "pedido": "Lomo Saltado y Jugo Papaya"
+    },
+    {
+      "id": 8,
+      "name": "Nicolas Gutierrez",
+      "email": "nicolas12@gmail.com",
+      "address": {
+        "city": "Av Brasil 6431"
+      },
+      "phone": "936943140",
+      "pedido": "Salchi Royal y Limonada"
+
+    },
+    {
+      "id": 9,
+      "name": "Earling Halland",
+      "email": "earlin.h@hotmail.com",
+      "address": {
+        "city": "Av Manchester 2312"
+      },
+      "phone": "912046843",
+      "pedido": "Club Sandwich y Jugo de piña helada"
+
+    },
+    {
+      "id": 10,
+      "name": "Lionel Messi",
+      "email": "lio.messi@hotmail.com",
+      "address": {
+        "city": "Av Internacional 4212"
+      },
+      "phone": "990123732",
+      "pedido": "Mostrito y jugo de fresa helada"
+
+    },
+    {
+      "id": 11,
+      "name": "Edward Antonio ",
+      "email": "edward_antonio@hotmail.com",
+      "address": {
+        "city": "Mz. G1 Lte. 32 - Puente Piedra"
+      },
+      "phone": "993472458",
+      "pedido": "Salchi Royal y Limonada Helada"
+    },
+    {
+      "id": 12,
+      "name": "Hellen Auris ",
+      "email": "hellen16@hotmail.com",
+      "address": {
+        "city": "Av Comas 7812"
+      },
+      "phone": "983472250",
+      "pedido": "Alitas BBQ y Surtido helado"
+    },
+    {
+      "id": 13,
+      "name": "Betsi Dominguez",
+      "email": "betsi_dc@hotmail.com",
+      "address": {
+        "city": "Av SMP 1012"
+      },
+      "phone": "934484896",
+      "pedido": "Alitas BBQ(x2), Surtido helado y Jugo de fresa helado"
+    },
+    {
+      "id": 14,
+      "name": "Ariel Gonzales",
+      "email": "arito@hotmail.com",
+      "address": {
+        "city": "Av La Victoria 4121"
+      },
+      "phone": "934485296",
+      "pedido": "Mostrito, Salchi Royal, Surtido helado y Jugo de fresa helado"
+    },
+    {
+      "id": 15,
+      "name": "Matias Rivera",
+      "email": "matias@hotmail.com",
+      "address": {
+        "city": "Av Brasil 1188"
+      },
+      "phone": "992101234",
+      "pedido": "Lomo Saltado y Gaseosa Inka Kola"
+    },
+    {
+      "id": 16,
+      "name": "Lucero Blas Toledo",
+      "email": "lucero@hotmail.com",
+      "address": {
+        "city": "Av Retablo 2312"
+      },
+      "phone": "965205234",
+      "pedido": "Tallarin Saltado y Gaseosa Coca Cola"
+    },
+    {
+      "id": 17,
+      "name": "Dina Boluarte Zegarra",
+      "email": "dinabz@hotmail.com",
+      "address": {
+        "city": "Av Centro de Lima 1012"
+      },
+      "phone": "921000721",
+      "pedido": "Tallarin Saltado,Lomo Saltado, Hamburguesa Doble Carne, gaseosas Coca Cola,Sprite y Inka Kola"
+    },
+    {
+      "id": 18,
+      "name": "Homero Simpsons",
+      "email": "homeros@hotmail.com",
+      "address": {
+        "city": "Av California 4512"
+      },
+      "phone": "990472419",
+      "pedido": "Alistas BBQ y Jugo de fresa helado"
+    },
+    {
+      "id": 19,
+      "name": "Rosa Montenegro",
+      "email": "rosa@hotmail.com",
+      "address": {
+        "city": "Av Los Olivos 2021"
+      },
+      "phone": "909123643",
+      "pedido": "Salchi Royal y Limonada Sin helar"
+    },
+    {
+      "id": 20,
+      "name": "Alondra Ramirez",
+      "email": "alondra.r@hotmail.com",
+      "address": {
+        "city": "Av Pacifico 3021"
+      },
+      "phone": "985200026",
+      "pedido": "Mostrito y Gaseosa Sprite"
+    }
+  ]

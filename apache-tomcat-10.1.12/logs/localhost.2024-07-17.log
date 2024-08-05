@@ -1,0 +1,1066 @@
+17-Jul-2024 00:15:18.100 SEVERE [http-nio-8080-exec-24] org.apache.catalina.core.StandardWrapperValve.invoke El Servlet.service() para el servlet [jsp] en el contexto con ruta [/Proyecto_TaypaFastFood] lanzó la excepción [No se puede compilar la clase para JSP: 
+
+Ha tenido lugar un error en la línea: [1] en el archivo jsp: [/listadeRegistrarse.jsp]
+Syntax error on token "import", delete this token
+1: <%page import="java.sql.*"%>
+2: 
+3: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+4: <!DOCTYPE html>
+
+
+Ha tenido lugar un error en la línea: [1] en el archivo jsp: [/listadeRegistrarse.jsp]
+Syntax error, insert ";" to complete Statement
+1: <%page import="java.sql.*"%>
+2: 
+3: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+4: <!DOCTYPE html>
+
+
+Ha tenido lugar un error en la línea: [13] en el archivo jsp: [/listadeRegistrarse.jsp]
+Connection cannot be resolved to a type
+10:     <body>
+11:         <%
+12:             //Conectando a la base de datos:
+13:                 Connection con;
+14:                 String url= "jdbc:mysql://localhost:3306/bd_taypafastfood";
+15:                 String Driver= "com.mysql.jdbc.Driver";
+16:                 String user= "root";
+
+
+Ha tenido lugar un error en la línea: [17] en el archivo jsp: [/listadeRegistrarse.jsp]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+14:                 String url= "jdbc:mysql://localhost:3306/bd_taypafastfood";
+15:                 String Driver= "com.mysql.jdbc.Driver";
+16:                 String user= "root";
+17:                 String clave="12345678"
+18:                 Class.forName(Driver);
+19:                 con=DriverManager.getConnection(url,user.clave);
+20:                 //Empezamos listando los datos de la tabla usuario
+
+
+Ha tenido lugar un error en la línea: [19] en el archivo jsp: [/listadeRegistrarse.jsp]
+DriverManager cannot be resolved
+16:                 String user= "root";
+17:                 String clave="12345678"
+18:                 Class.forName(Driver);
+19:                 con=DriverManager.getConnection(url,user.clave);
+20:                 //Empezamos listando los datos de la tabla usuario
+21:                 PrepareStatement ps;
+22:                 ResultSet rs;
+
+
+Ha tenido lugar un error en la línea: [19] en el archivo jsp: [/listadeRegistrarse.jsp]
+clave cannot be resolved or is not a field
+16:                 String user= "root";
+17:                 String clave="12345678"
+18:                 Class.forName(Driver);
+19:                 con=DriverManager.getConnection(url,user.clave);
+20:                 //Empezamos listando los datos de la tabla usuario
+21:                 PrepareStatement ps;
+22:                 ResultSet rs;
+
+
+Ha tenido lugar un error en la línea: [21] en el archivo jsp: [/listadeRegistrarse.jsp]
+PrepareStatement cannot be resolved to a type
+18:                 Class.forName(Driver);
+19:                 con=DriverManager.getConnection(url,user.clave);
+20:                 //Empezamos listando los datos de la tabla usuario
+21:                 PrepareStatement ps;
+22:                 ResultSet rs;
+23:                 ps=con.prepareStatement("select * from usuarios");
+24:                 rs=ps.executeQuery();
+
+
+Ha tenido lugar un error en la línea: [22] en el archivo jsp: [/listadeRegistrarse.jsp]
+ResultSet cannot be resolved to a type
+19:                 con=DriverManager.getConnection(url,user.clave);
+20:                 //Empezamos listando los datos de la tabla usuario
+21:                 PrepareStatement ps;
+22:                 ResultSet rs;
+23:                 ps=con.prepareStatement("select * from usuarios");
+24:                 rs=ps.executeQuery();
+25:         %>
+
+
+Stacktrace:] con causa raíz
+	org.apache.jasper.JasperException: No se puede compilar la clase para JSP: 
+
+Ha tenido lugar un error en la línea: [1] en el archivo jsp: [/listadeRegistrarse.jsp]
+Syntax error on token "import", delete this token
+1: <%page import="java.sql.*"%>
+2: 
+3: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+4: <!DOCTYPE html>
+
+
+Ha tenido lugar un error en la línea: [1] en el archivo jsp: [/listadeRegistrarse.jsp]
+Syntax error, insert ";" to complete Statement
+1: <%page import="java.sql.*"%>
+2: 
+3: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+4: <!DOCTYPE html>
+
+
+Ha tenido lugar un error en la línea: [13] en el archivo jsp: [/listadeRegistrarse.jsp]
+Connection cannot be resolved to a type
+10:     <body>
+11:         <%
+12:             //Conectando a la base de datos:
+13:                 Connection con;
+14:                 String url= "jdbc:mysql://localhost:3306/bd_taypafastfood";
+15:                 String Driver= "com.mysql.jdbc.Driver";
+16:                 String user= "root";
+
+
+Ha tenido lugar un error en la línea: [17] en el archivo jsp: [/listadeRegistrarse.jsp]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+14:                 String url= "jdbc:mysql://localhost:3306/bd_taypafastfood";
+15:                 String Driver= "com.mysql.jdbc.Driver";
+16:                 String user= "root";
+17:                 String clave="12345678"
+18:                 Class.forName(Driver);
+19:                 con=DriverManager.getConnection(url,user.clave);
+20:                 //Empezamos listando los datos de la tabla usuario
+
+
+Ha tenido lugar un error en la línea: [19] en el archivo jsp: [/listadeRegistrarse.jsp]
+DriverManager cannot be resolved
+16:                 String user= "root";
+17:                 String clave="12345678"
+18:                 Class.forName(Driver);
+19:                 con=DriverManager.getConnection(url,user.clave);
+20:                 //Empezamos listando los datos de la tabla usuario
+21:                 PrepareStatement ps;
+22:                 ResultSet rs;
+
+
+Ha tenido lugar un error en la línea: [19] en el archivo jsp: [/listadeRegistrarse.jsp]
+clave cannot be resolved or is not a field
+16:                 String user= "root";
+17:                 String clave="12345678"
+18:                 Class.forName(Driver);
+19:                 con=DriverManager.getConnection(url,user.clave);
+20:                 //Empezamos listando los datos de la tabla usuario
+21:                 PrepareStatement ps;
+22:                 ResultSet rs;
+
+
+Ha tenido lugar un error en la línea: [21] en el archivo jsp: [/listadeRegistrarse.jsp]
+PrepareStatement cannot be resolved to a type
+18:                 Class.forName(Driver);
+19:                 con=DriverManager.getConnection(url,user.clave);
+20:                 //Empezamos listando los datos de la tabla usuario
+21:                 PrepareStatement ps;
+22:                 ResultSet rs;
+23:                 ps=con.prepareStatement("select * from usuarios");
+24:                 rs=ps.executeQuery();
+
+
+Ha tenido lugar un error en la línea: [22] en el archivo jsp: [/listadeRegistrarse.jsp]
+ResultSet cannot be resolved to a type
+19:                 con=DriverManager.getConnection(url,user.clave);
+20:                 //Empezamos listando los datos de la tabla usuario
+21:                 PrepareStatement ps;
+22:                 ResultSet rs;
+23:                 ps=con.prepareStatement("select * from usuarios");
+24:                 rs=ps.executeQuery();
+25:         %>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:513)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:402)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:372)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:356)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:396)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:676)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+17-Jul-2024 00:30:26.952 SEVERE [http-nio-8080-exec-22] org.apache.catalina.core.StandardWrapperValve.invoke El Servlet.service() para el servlet [jsp] en el contexto con ruta [/Proyecto_TaypaFastFood] lanzó la excepción [No se puede compilar la clase para JSP: 
+
+Ha tenido lugar un error en la línea: [1] en el archivo jsp: [/listadeRegistrarse.jsp]
+Syntax error on token "import", delete this token
+1: <%page import="java.sql.*"%>
+2: 
+3: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+4: <!DOCTYPE html>
+
+
+Ha tenido lugar un error en la línea: [1] en el archivo jsp: [/listadeRegistrarse.jsp]
+Syntax error, insert ";" to complete Statement
+1: <%page import="java.sql.*"%>
+2: 
+3: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+4: <!DOCTYPE html>
+
+
+Ha tenido lugar un error en la línea: [13] en el archivo jsp: [/listadeRegistrarse.jsp]
+Connection cannot be resolved to a type
+10:     <body>
+11:         <%
+12:             //Conectando a la base de datos:
+13:                 Connection con;
+14:                 String url= "jdbc:mysql://localhost:3306/bd_taypafastfood";
+15:                 String Driver= "com.mysql.jdbc.Driver";
+16:                 String user= "root";
+
+
+Ha tenido lugar un error en la línea: [17] en el archivo jsp: [/listadeRegistrarse.jsp]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+14:                 String url= "jdbc:mysql://localhost:3306/bd_taypafastfood";
+15:                 String Driver= "com.mysql.jdbc.Driver";
+16:                 String user= "root";
+17:                 String clave="12345678"
+18:                 Class.forName(Driver);
+19:                 con=DriverManager.getConnection(url,user.clave);
+20:                 //Empezamos listando los datos de la tabla usuario
+
+
+Ha tenido lugar un error en la línea: [19] en el archivo jsp: [/listadeRegistrarse.jsp]
+DriverManager cannot be resolved
+16:                 String user= "root";
+17:                 String clave="12345678"
+18:                 Class.forName(Driver);
+19:                 con=DriverManager.getConnection(url,user.clave);
+20:                 //Empezamos listando los datos de la tabla usuario
+21:                 PrepareStatement ps;
+22:                 ResultSet rs;
+
+
+Ha tenido lugar un error en la línea: [19] en el archivo jsp: [/listadeRegistrarse.jsp]
+clave cannot be resolved or is not a field
+16:                 String user= "root";
+17:                 String clave="12345678"
+18:                 Class.forName(Driver);
+19:                 con=DriverManager.getConnection(url,user.clave);
+20:                 //Empezamos listando los datos de la tabla usuario
+21:                 PrepareStatement ps;
+22:                 ResultSet rs;
+
+
+Ha tenido lugar un error en la línea: [21] en el archivo jsp: [/listadeRegistrarse.jsp]
+PrepareStatement cannot be resolved to a type
+18:                 Class.forName(Driver);
+19:                 con=DriverManager.getConnection(url,user.clave);
+20:                 //Empezamos listando los datos de la tabla usuario
+21:                 PrepareStatement ps;
+22:                 ResultSet rs;
+23:                 ps=con.prepareStatement("select * from usuarios");
+24:                 rs=ps.executeQuery();
+
+
+Ha tenido lugar un error en la línea: [22] en el archivo jsp: [/listadeRegistrarse.jsp]
+ResultSet cannot be resolved to a type
+19:                 con=DriverManager.getConnection(url,user.clave);
+20:                 //Empezamos listando los datos de la tabla usuario
+21:                 PrepareStatement ps;
+22:                 ResultSet rs;
+23:                 ps=con.prepareStatement("select * from usuarios");
+24:                 rs=ps.executeQuery();
+25:         %>
+
+
+Ha tenido lugar un error en la línea: [37] en el archivo jsp: [/listadeRegistrarse.jsp]
+Syntax error, insert ";" to complete Statement
+34:                 while(rs.next()){
+35:             %>
+36:             <tr>
+37:                 <td><% rs.get.Int("id")%></td>
+38:                 <td><% rs.get.Int("nombres")%></td>
+39:                 <td><% rs.get.Int("usuarios")%></td>
+40:                 <td>
+
+
+Ha tenido lugar un error en la línea: [38] en el archivo jsp: [/listadeRegistrarse.jsp]
+Syntax error, insert ";" to complete Statement
+35:             %>
+36:             <tr>
+37:                 <td><% rs.get.Int("id")%></td>
+38:                 <td><% rs.get.Int("nombres")%></td>
+39:                 <td><% rs.get.Int("usuarios")%></td>
+40:                 <td>
+41:                     <<a>Editar</a>
+
+
+Ha tenido lugar un error en la línea: [39] en el archivo jsp: [/listadeRegistrarse.jsp]
+Syntax error, insert ";" to complete Statement
+36:             <tr>
+37:                 <td><% rs.get.Int("id")%></td>
+38:                 <td><% rs.get.Int("nombres")%></td>
+39:                 <td><% rs.get.Int("usuarios")%></td>
+40:                 <td>
+41:                     <<a>Editar</a>
+42:                     <a>Eliminar</a>
+
+
+Ha tenido lugar un error en la línea: [179] en el fichero java generado: [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\work\Catalina\localhost\Proyecto_TaypaFastFood\org\apache\jsp\listadeRegistrarse_jsp.java]
+Syntax error, insert "}" to complete Block
+
+Ha tenido lugar un error en la línea: [196] en el fichero java generado: [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\work\Catalina\localhost\Proyecto_TaypaFastFood\org\apache\jsp\listadeRegistrarse_jsp.java]
+Syntax error on token "}", delete this token
+
+Ha tenido lugar un error en la línea: [197] en el fichero java generado: [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\work\Catalina\localhost\Proyecto_TaypaFastFood\org\apache\jsp\listadeRegistrarse_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:] con causa raíz
+	org.apache.jasper.JasperException: No se puede compilar la clase para JSP: 
+
+Ha tenido lugar un error en la línea: [1] en el archivo jsp: [/listadeRegistrarse.jsp]
+Syntax error on token "import", delete this token
+1: <%page import="java.sql.*"%>
+2: 
+3: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+4: <!DOCTYPE html>
+
+
+Ha tenido lugar un error en la línea: [1] en el archivo jsp: [/listadeRegistrarse.jsp]
+Syntax error, insert ";" to complete Statement
+1: <%page import="java.sql.*"%>
+2: 
+3: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+4: <!DOCTYPE html>
+
+
+Ha tenido lugar un error en la línea: [13] en el archivo jsp: [/listadeRegistrarse.jsp]
+Connection cannot be resolved to a type
+10:     <body>
+11:         <%
+12:             //Conectando a la base de datos:
+13:                 Connection con;
+14:                 String url= "jdbc:mysql://localhost:3306/bd_taypafastfood";
+15:                 String Driver= "com.mysql.jdbc.Driver";
+16:                 String user= "root";
+
+
+Ha tenido lugar un error en la línea: [17] en el archivo jsp: [/listadeRegistrarse.jsp]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+14:                 String url= "jdbc:mysql://localhost:3306/bd_taypafastfood";
+15:                 String Driver= "com.mysql.jdbc.Driver";
+16:                 String user= "root";
+17:                 String clave="12345678"
+18:                 Class.forName(Driver);
+19:                 con=DriverManager.getConnection(url,user.clave);
+20:                 //Empezamos listando los datos de la tabla usuario
+
+
+Ha tenido lugar un error en la línea: [19] en el archivo jsp: [/listadeRegistrarse.jsp]
+DriverManager cannot be resolved
+16:                 String user= "root";
+17:                 String clave="12345678"
+18:                 Class.forName(Driver);
+19:                 con=DriverManager.getConnection(url,user.clave);
+20:                 //Empezamos listando los datos de la tabla usuario
+21:                 PrepareStatement ps;
+22:                 ResultSet rs;
+
+
+Ha tenido lugar un error en la línea: [19] en el archivo jsp: [/listadeRegistrarse.jsp]
+clave cannot be resolved or is not a field
+16:                 String user= "root";
+17:                 String clave="12345678"
+18:                 Class.forName(Driver);
+19:                 con=DriverManager.getConnection(url,user.clave);
+20:                 //Empezamos listando los datos de la tabla usuario
+21:                 PrepareStatement ps;
+22:                 ResultSet rs;
+
+
+Ha tenido lugar un error en la línea: [21] en el archivo jsp: [/listadeRegistrarse.jsp]
+PrepareStatement cannot be resolved to a type
+18:                 Class.forName(Driver);
+19:                 con=DriverManager.getConnection(url,user.clave);
+20:                 //Empezamos listando los datos de la tabla usuario
+21:                 PrepareStatement ps;
+22:                 ResultSet rs;
+23:                 ps=con.prepareStatement("select * from usuarios");
+24:                 rs=ps.executeQuery();
+
+
+Ha tenido lugar un error en la línea: [22] en el archivo jsp: [/listadeRegistrarse.jsp]
+ResultSet cannot be resolved to a type
+19:                 con=DriverManager.getConnection(url,user.clave);
+20:                 //Empezamos listando los datos de la tabla usuario
+21:                 PrepareStatement ps;
+22:                 ResultSet rs;
+23:                 ps=con.prepareStatement("select * from usuarios");
+24:                 rs=ps.executeQuery();
+25:         %>
+
+
+Ha tenido lugar un error en la línea: [37] en el archivo jsp: [/listadeRegistrarse.jsp]
+Syntax error, insert ";" to complete Statement
+34:                 while(rs.next()){
+35:             %>
+36:             <tr>
+37:                 <td><% rs.get.Int("id")%></td>
+38:                 <td><% rs.get.Int("nombres")%></td>
+39:                 <td><% rs.get.Int("usuarios")%></td>
+40:                 <td>
+
+
+Ha tenido lugar un error en la línea: [38] en el archivo jsp: [/listadeRegistrarse.jsp]
+Syntax error, insert ";" to complete Statement
+35:             %>
+36:             <tr>
+37:                 <td><% rs.get.Int("id")%></td>
+38:                 <td><% rs.get.Int("nombres")%></td>
+39:                 <td><% rs.get.Int("usuarios")%></td>
+40:                 <td>
+41:                     <<a>Editar</a>
+
+
+Ha tenido lugar un error en la línea: [39] en el archivo jsp: [/listadeRegistrarse.jsp]
+Syntax error, insert ";" to complete Statement
+36:             <tr>
+37:                 <td><% rs.get.Int("id")%></td>
+38:                 <td><% rs.get.Int("nombres")%></td>
+39:                 <td><% rs.get.Int("usuarios")%></td>
+40:                 <td>
+41:                     <<a>Editar</a>
+42:                     <a>Eliminar</a>
+
+
+Ha tenido lugar un error en la línea: [179] en el fichero java generado: [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\work\Catalina\localhost\Proyecto_TaypaFastFood\org\apache\jsp\listadeRegistrarse_jsp.java]
+Syntax error, insert "}" to complete Block
+
+Ha tenido lugar un error en la línea: [196] en el fichero java generado: [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\work\Catalina\localhost\Proyecto_TaypaFastFood\org\apache\jsp\listadeRegistrarse_jsp.java]
+Syntax error on token "}", delete this token
+
+Ha tenido lugar un error en la línea: [197] en el fichero java generado: [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\work\Catalina\localhost\Proyecto_TaypaFastFood\org\apache\jsp\listadeRegistrarse_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:513)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:402)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:372)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:356)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:396)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:676)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+17-Jul-2024 00:34:24.313 SEVERE [http-nio-8080-exec-45] org.apache.catalina.core.StandardWrapperValve.invoke El Servlet.service() para el servlet [jsp] en el contexto con ruta [/Proyecto_TaypaFastFood] lanzó la excepción [No se puede compilar la clase para JSP: 
+
+Ha tenido lugar un error en la línea: [1] en el archivo jsp: [/listadeRegistrarse.jsp]
+Syntax error on token "import", delete this token
+1: <%page import="java.sql.*"%>
+2: 
+3: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+4: <!DOCTYPE html>
+
+
+Ha tenido lugar un error en la línea: [1] en el archivo jsp: [/listadeRegistrarse.jsp]
+Syntax error, insert ";" to complete Statement
+1: <%page import="java.sql.*"%>
+2: 
+3: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+4: <!DOCTYPE html>
+
+
+Ha tenido lugar un error en la línea: [13] en el archivo jsp: [/listadeRegistrarse.jsp]
+Connection cannot be resolved to a type
+10:     <body>
+11:         <%
+12:             //Conectando a la base de datos:
+13:                 Connection con;
+14:                 String url= "jdbc:mysql://localhost:3306/bd_taypafastfood";
+15:                 String Driver= "com.mysql.jdbc.Driver";
+16:                 String user= "root";
+
+
+Ha tenido lugar un error en la línea: [17] en el archivo jsp: [/listadeRegistrarse.jsp]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+14:                 String url= "jdbc:mysql://localhost:3306/bd_taypafastfood";
+15:                 String Driver= "com.mysql.jdbc.Driver";
+16:                 String user= "root";
+17:                 String clave="12345678"
+18:                 Class.forName(Driver);
+19:                 con=DriverManager.getConnection(url,user.clave);
+20:                 //Empezamos listando los datos de la tabla usuario
+
+
+Ha tenido lugar un error en la línea: [19] en el archivo jsp: [/listadeRegistrarse.jsp]
+DriverManager cannot be resolved
+16:                 String user= "root";
+17:                 String clave="12345678"
+18:                 Class.forName(Driver);
+19:                 con=DriverManager.getConnection(url,user.clave);
+20:                 //Empezamos listando los datos de la tabla usuario
+21:                 PrepareStatement ps;
+22:                 ResultSet rs;
+
+
+Ha tenido lugar un error en la línea: [19] en el archivo jsp: [/listadeRegistrarse.jsp]
+clave cannot be resolved or is not a field
+16:                 String user= "root";
+17:                 String clave="12345678"
+18:                 Class.forName(Driver);
+19:                 con=DriverManager.getConnection(url,user.clave);
+20:                 //Empezamos listando los datos de la tabla usuario
+21:                 PrepareStatement ps;
+22:                 ResultSet rs;
+
+
+Ha tenido lugar un error en la línea: [21] en el archivo jsp: [/listadeRegistrarse.jsp]
+PrepareStatement cannot be resolved to a type
+18:                 Class.forName(Driver);
+19:                 con=DriverManager.getConnection(url,user.clave);
+20:                 //Empezamos listando los datos de la tabla usuario
+21:                 PrepareStatement ps;
+22:                 ResultSet rs;
+23:                 ps=con.prepareStatement("select * from usuarios");
+24:                 rs=ps.executeQuery();
+
+
+Ha tenido lugar un error en la línea: [22] en el archivo jsp: [/listadeRegistrarse.jsp]
+ResultSet cannot be resolved to a type
+19:                 con=DriverManager.getConnection(url,user.clave);
+20:                 //Empezamos listando los datos de la tabla usuario
+21:                 PrepareStatement ps;
+22:                 ResultSet rs;
+23:                 ps=con.prepareStatement("select * from usuarios");
+24:                 rs=ps.executeQuery();
+25:         %>
+
+
+Ha tenido lugar un error en la línea: [37] en el archivo jsp: [/listadeRegistrarse.jsp]
+Syntax error, insert ";" to complete Statement
+34:                 while(rs.next()){
+35:             %>
+36:             <tr>
+37:                 <td><% rs.get.Int("id")%></td>
+38:                 <td><% rs.get.Int("nombres")%></td>
+39:                 <td><% rs.get.Int("usuarios")%></td>
+40:                 <td>
+
+
+Ha tenido lugar un error en la línea: [38] en el archivo jsp: [/listadeRegistrarse.jsp]
+Syntax error, insert ";" to complete Statement
+35:             %>
+36:             <tr>
+37:                 <td><% rs.get.Int("id")%></td>
+38:                 <td><% rs.get.Int("nombres")%></td>
+39:                 <td><% rs.get.Int("usuarios")%></td>
+40:                 <td>
+41:                     <<a>Editar</a>
+
+
+Ha tenido lugar un error en la línea: [39] en el archivo jsp: [/listadeRegistrarse.jsp]
+Syntax error, insert ";" to complete Statement
+36:             <tr>
+37:                 <td><% rs.get.Int("id")%></td>
+38:                 <td><% rs.get.Int("nombres")%></td>
+39:                 <td><% rs.get.Int("usuarios")%></td>
+40:                 <td>
+41:                     <<a>Editar</a>
+42:                     <a>Eliminar</a>
+
+
+Ha tenido lugar un error en la línea: [179] en el fichero java generado: [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\work\Catalina\localhost\Proyecto_TaypaFastFood\org\apache\jsp\listadeRegistrarse_jsp.java]
+Syntax error, insert "}" to complete Block
+
+Ha tenido lugar un error en la línea: [196] en el fichero java generado: [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\work\Catalina\localhost\Proyecto_TaypaFastFood\org\apache\jsp\listadeRegistrarse_jsp.java]
+Syntax error on token "}", delete this token
+
+Ha tenido lugar un error en la línea: [197] en el fichero java generado: [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\work\Catalina\localhost\Proyecto_TaypaFastFood\org\apache\jsp\listadeRegistrarse_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:] con causa raíz
+	org.apache.jasper.JasperException: No se puede compilar la clase para JSP: 
+
+Ha tenido lugar un error en la línea: [1] en el archivo jsp: [/listadeRegistrarse.jsp]
+Syntax error on token "import", delete this token
+1: <%page import="java.sql.*"%>
+2: 
+3: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+4: <!DOCTYPE html>
+
+
+Ha tenido lugar un error en la línea: [1] en el archivo jsp: [/listadeRegistrarse.jsp]
+Syntax error, insert ";" to complete Statement
+1: <%page import="java.sql.*"%>
+2: 
+3: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+4: <!DOCTYPE html>
+
+
+Ha tenido lugar un error en la línea: [13] en el archivo jsp: [/listadeRegistrarse.jsp]
+Connection cannot be resolved to a type
+10:     <body>
+11:         <%
+12:             //Conectando a la base de datos:
+13:                 Connection con;
+14:                 String url= "jdbc:mysql://localhost:3306/bd_taypafastfood";
+15:                 String Driver= "com.mysql.jdbc.Driver";
+16:                 String user= "root";
+
+
+Ha tenido lugar un error en la línea: [17] en el archivo jsp: [/listadeRegistrarse.jsp]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+14:                 String url= "jdbc:mysql://localhost:3306/bd_taypafastfood";
+15:                 String Driver= "com.mysql.jdbc.Driver";
+16:                 String user= "root";
+17:                 String clave="12345678"
+18:                 Class.forName(Driver);
+19:                 con=DriverManager.getConnection(url,user.clave);
+20:                 //Empezamos listando los datos de la tabla usuario
+
+
+Ha tenido lugar un error en la línea: [19] en el archivo jsp: [/listadeRegistrarse.jsp]
+DriverManager cannot be resolved
+16:                 String user= "root";
+17:                 String clave="12345678"
+18:                 Class.forName(Driver);
+19:                 con=DriverManager.getConnection(url,user.clave);
+20:                 //Empezamos listando los datos de la tabla usuario
+21:                 PrepareStatement ps;
+22:                 ResultSet rs;
+
+
+Ha tenido lugar un error en la línea: [19] en el archivo jsp: [/listadeRegistrarse.jsp]
+clave cannot be resolved or is not a field
+16:                 String user= "root";
+17:                 String clave="12345678"
+18:                 Class.forName(Driver);
+19:                 con=DriverManager.getConnection(url,user.clave);
+20:                 //Empezamos listando los datos de la tabla usuario
+21:                 PrepareStatement ps;
+22:                 ResultSet rs;
+
+
+Ha tenido lugar un error en la línea: [21] en el archivo jsp: [/listadeRegistrarse.jsp]
+PrepareStatement cannot be resolved to a type
+18:                 Class.forName(Driver);
+19:                 con=DriverManager.getConnection(url,user.clave);
+20:                 //Empezamos listando los datos de la tabla usuario
+21:                 PrepareStatement ps;
+22:                 ResultSet rs;
+23:                 ps=con.prepareStatement("select * from usuarios");
+24:                 rs=ps.executeQuery();
+
+
+Ha tenido lugar un error en la línea: [22] en el archivo jsp: [/listadeRegistrarse.jsp]
+ResultSet cannot be resolved to a type
+19:                 con=DriverManager.getConnection(url,user.clave);
+20:                 //Empezamos listando los datos de la tabla usuario
+21:                 PrepareStatement ps;
+22:                 ResultSet rs;
+23:                 ps=con.prepareStatement("select * from usuarios");
+24:                 rs=ps.executeQuery();
+25:         %>
+
+
+Ha tenido lugar un error en la línea: [37] en el archivo jsp: [/listadeRegistrarse.jsp]
+Syntax error, insert ";" to complete Statement
+34:                 while(rs.next()){
+35:             %>
+36:             <tr>
+37:                 <td><% rs.get.Int("id")%></td>
+38:                 <td><% rs.get.Int("nombres")%></td>
+39:                 <td><% rs.get.Int("usuarios")%></td>
+40:                 <td>
+
+
+Ha tenido lugar un error en la línea: [38] en el archivo jsp: [/listadeRegistrarse.jsp]
+Syntax error, insert ";" to complete Statement
+35:             %>
+36:             <tr>
+37:                 <td><% rs.get.Int("id")%></td>
+38:                 <td><% rs.get.Int("nombres")%></td>
+39:                 <td><% rs.get.Int("usuarios")%></td>
+40:                 <td>
+41:                     <<a>Editar</a>
+
+
+Ha tenido lugar un error en la línea: [39] en el archivo jsp: [/listadeRegistrarse.jsp]
+Syntax error, insert ";" to complete Statement
+36:             <tr>
+37:                 <td><% rs.get.Int("id")%></td>
+38:                 <td><% rs.get.Int("nombres")%></td>
+39:                 <td><% rs.get.Int("usuarios")%></td>
+40:                 <td>
+41:                     <<a>Editar</a>
+42:                     <a>Eliminar</a>
+
+
+Ha tenido lugar un error en la línea: [179] en el fichero java generado: [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\work\Catalina\localhost\Proyecto_TaypaFastFood\org\apache\jsp\listadeRegistrarse_jsp.java]
+Syntax error, insert "}" to complete Block
+
+Ha tenido lugar un error en la línea: [196] en el fichero java generado: [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\work\Catalina\localhost\Proyecto_TaypaFastFood\org\apache\jsp\listadeRegistrarse_jsp.java]
+Syntax error on token "}", delete this token
+
+Ha tenido lugar un error en la línea: [197] en el fichero java generado: [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\work\Catalina\localhost\Proyecto_TaypaFastFood\org\apache\jsp\listadeRegistrarse_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:513)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:402)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:372)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:356)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:396)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:676)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+17-Jul-2024 00:36:17.012 SEVERE [http-nio-8080-exec-49] org.apache.catalina.core.StandardWrapperValve.invoke El Servlet.service() para el servlet [jsp] en el contexto con ruta [/Proyecto_TaypaFastFood] lanzó la excepción [No se puede compilar la clase para JSP: 
+
+Ha tenido lugar un error en la línea: [1] en el archivo jsp: [/listadeRegistrarse.jsp]
+Syntax error on token "import", delete this token
+1: <%page import="java.sql.*"%>
+2: 
+3: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+4: <!DOCTYPE html>
+
+
+Ha tenido lugar un error en la línea: [1] en el archivo jsp: [/listadeRegistrarse.jsp]
+Syntax error, insert ";" to complete Statement
+1: <%page import="java.sql.*"%>
+2: 
+3: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+4: <!DOCTYPE html>
+
+
+Ha tenido lugar un error en la línea: [13] en el archivo jsp: [/listadeRegistrarse.jsp]
+Connection cannot be resolved to a type
+10:     <body>
+11:         <%
+12:             //Conectando a la base de datos:
+13:                 Connection con;
+14:                 String url= "jdbc:mysql://localhost:3306/bd_taypafastfood";
+15:                 String Driver= "com.mysql.jdbc.Driver";
+16:                 String user= "root";
+
+
+Ha tenido lugar un error en la línea: [17] en el archivo jsp: [/listadeRegistrarse.jsp]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+14:                 String url= "jdbc:mysql://localhost:3306/bd_taypafastfood";
+15:                 String Driver= "com.mysql.jdbc.Driver";
+16:                 String user= "root";
+17:                 String clave="12345678"
+18:                 Class.forName(Driver);
+19:                 con=DriverManager.getConnection(url,user.clave);
+20:                 //Empezamos listando los datos de la tabla usuario
+
+
+Ha tenido lugar un error en la línea: [19] en el archivo jsp: [/listadeRegistrarse.jsp]
+DriverManager cannot be resolved
+16:                 String user= "root";
+17:                 String clave="12345678"
+18:                 Class.forName(Driver);
+19:                 con=DriverManager.getConnection(url,user.clave);
+20:                 //Empezamos listando los datos de la tabla usuario
+21:                 PrepareStatement ps;
+22:                 ResultSet rs;
+
+
+Ha tenido lugar un error en la línea: [19] en el archivo jsp: [/listadeRegistrarse.jsp]
+clave cannot be resolved or is not a field
+16:                 String user= "root";
+17:                 String clave="12345678"
+18:                 Class.forName(Driver);
+19:                 con=DriverManager.getConnection(url,user.clave);
+20:                 //Empezamos listando los datos de la tabla usuario
+21:                 PrepareStatement ps;
+22:                 ResultSet rs;
+
+
+Ha tenido lugar un error en la línea: [21] en el archivo jsp: [/listadeRegistrarse.jsp]
+PrepareStatement cannot be resolved to a type
+18:                 Class.forName(Driver);
+19:                 con=DriverManager.getConnection(url,user.clave);
+20:                 //Empezamos listando los datos de la tabla usuario
+21:                 PrepareStatement ps;
+22:                 ResultSet rs;
+23:                 ps=con.prepareStatement("select * from usuarios");
+24:                 rs=ps.executeQuery();
+
+
+Ha tenido lugar un error en la línea: [22] en el archivo jsp: [/listadeRegistrarse.jsp]
+ResultSet cannot be resolved to a type
+19:                 con=DriverManager.getConnection(url,user.clave);
+20:                 //Empezamos listando los datos de la tabla usuario
+21:                 PrepareStatement ps;
+22:                 ResultSet rs;
+23:                 ps=con.prepareStatement("select * from usuarios");
+24:                 rs=ps.executeQuery();
+25:         %>
+
+
+Ha tenido lugar un error en la línea: [37] en el archivo jsp: [/listadeRegistrarse.jsp]
+Syntax error, insert ";" to complete Statement
+34:                 while(rs.next()){
+35:             %>
+36:             <tr>
+37:                 <td><% rs.get.Int("id")%></td>
+38:                 <td><% rs.get.Int("nombres")%></td>
+39:                 <td><% rs.get.Int("usuarios")%></td>
+40:                 <td>
+
+
+Ha tenido lugar un error en la línea: [38] en el archivo jsp: [/listadeRegistrarse.jsp]
+Syntax error, insert ";" to complete Statement
+35:             %>
+36:             <tr>
+37:                 <td><% rs.get.Int("id")%></td>
+38:                 <td><% rs.get.Int("nombres")%></td>
+39:                 <td><% rs.get.Int("usuarios")%></td>
+40:                 <td>
+41:                     <<a>Editar</a>
+
+
+Ha tenido lugar un error en la línea: [39] en el archivo jsp: [/listadeRegistrarse.jsp]
+Syntax error, insert ";" to complete Statement
+36:             <tr>
+37:                 <td><% rs.get.Int("id")%></td>
+38:                 <td><% rs.get.Int("nombres")%></td>
+39:                 <td><% rs.get.Int("usuarios")%></td>
+40:                 <td>
+41:                     <<a>Editar</a>
+42:                     <a>Eliminar</a>
+
+
+Ha tenido lugar un error en la línea: [179] en el fichero java generado: [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\work\Catalina\localhost\Proyecto_TaypaFastFood\org\apache\jsp\listadeRegistrarse_jsp.java]
+Syntax error, insert "}" to complete Block
+
+Ha tenido lugar un error en la línea: [196] en el fichero java generado: [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\work\Catalina\localhost\Proyecto_TaypaFastFood\org\apache\jsp\listadeRegistrarse_jsp.java]
+Syntax error on token "}", delete this token
+
+Ha tenido lugar un error en la línea: [197] en el fichero java generado: [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\work\Catalina\localhost\Proyecto_TaypaFastFood\org\apache\jsp\listadeRegistrarse_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:] con causa raíz
+	org.apache.jasper.JasperException: No se puede compilar la clase para JSP: 
+
+Ha tenido lugar un error en la línea: [1] en el archivo jsp: [/listadeRegistrarse.jsp]
+Syntax error on token "import", delete this token
+1: <%page import="java.sql.*"%>
+2: 
+3: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+4: <!DOCTYPE html>
+
+
+Ha tenido lugar un error en la línea: [1] en el archivo jsp: [/listadeRegistrarse.jsp]
+Syntax error, insert ";" to complete Statement
+1: <%page import="java.sql.*"%>
+2: 
+3: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+4: <!DOCTYPE html>
+
+
+Ha tenido lugar un error en la línea: [13] en el archivo jsp: [/listadeRegistrarse.jsp]
+Connection cannot be resolved to a type
+10:     <body>
+11:         <%
+12:             //Conectando a la base de datos:
+13:                 Connection con;
+14:                 String url= "jdbc:mysql://localhost:3306/bd_taypafastfood";
+15:                 String Driver= "com.mysql.jdbc.Driver";
+16:                 String user= "root";
+
+
+Ha tenido lugar un error en la línea: [17] en el archivo jsp: [/listadeRegistrarse.jsp]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+14:                 String url= "jdbc:mysql://localhost:3306/bd_taypafastfood";
+15:                 String Driver= "com.mysql.jdbc.Driver";
+16:                 String user= "root";
+17:                 String clave="12345678"
+18:                 Class.forName(Driver);
+19:                 con=DriverManager.getConnection(url,user.clave);
+20:                 //Empezamos listando los datos de la tabla usuario
+
+
+Ha tenido lugar un error en la línea: [19] en el archivo jsp: [/listadeRegistrarse.jsp]
+DriverManager cannot be resolved
+16:                 String user= "root";
+17:                 String clave="12345678"
+18:                 Class.forName(Driver);
+19:                 con=DriverManager.getConnection(url,user.clave);
+20:                 //Empezamos listando los datos de la tabla usuario
+21:                 PrepareStatement ps;
+22:                 ResultSet rs;
+
+
+Ha tenido lugar un error en la línea: [19] en el archivo jsp: [/listadeRegistrarse.jsp]
+clave cannot be resolved or is not a field
+16:                 String user= "root";
+17:                 String clave="12345678"
+18:                 Class.forName(Driver);
+19:                 con=DriverManager.getConnection(url,user.clave);
+20:                 //Empezamos listando los datos de la tabla usuario
+21:                 PrepareStatement ps;
+22:                 ResultSet rs;
+
+
+Ha tenido lugar un error en la línea: [21] en el archivo jsp: [/listadeRegistrarse.jsp]
+PrepareStatement cannot be resolved to a type
+18:                 Class.forName(Driver);
+19:                 con=DriverManager.getConnection(url,user.clave);
+20:                 //Empezamos listando los datos de la tabla usuario
+21:                 PrepareStatement ps;
+22:                 ResultSet rs;
+23:                 ps=con.prepareStatement("select * from usuarios");
+24:                 rs=ps.executeQuery();
+
+
+Ha tenido lugar un error en la línea: [22] en el archivo jsp: [/listadeRegistrarse.jsp]
+ResultSet cannot be resolved to a type
+19:                 con=DriverManager.getConnection(url,user.clave);
+20:                 //Empezamos listando los datos de la tabla usuario
+21:                 PrepareStatement ps;
+22:                 ResultSet rs;
+23:                 ps=con.prepareStatement("select * from usuarios");
+24:                 rs=ps.executeQuery();
+25:         %>
+
+
+Ha tenido lugar un error en la línea: [37] en el archivo jsp: [/listadeRegistrarse.jsp]
+Syntax error, insert ";" to complete Statement
+34:                 while(rs.next()){
+35:             %>
+36:             <tr>
+37:                 <td><% rs.get.Int("id")%></td>
+38:                 <td><% rs.get.Int("nombres")%></td>
+39:                 <td><% rs.get.Int("usuarios")%></td>
+40:                 <td>
+
+
+Ha tenido lugar un error en la línea: [38] en el archivo jsp: [/listadeRegistrarse.jsp]
+Syntax error, insert ";" to complete Statement
+35:             %>
+36:             <tr>
+37:                 <td><% rs.get.Int("id")%></td>
+38:                 <td><% rs.get.Int("nombres")%></td>
+39:                 <td><% rs.get.Int("usuarios")%></td>
+40:                 <td>
+41:                     <<a>Editar</a>
+
+
+Ha tenido lugar un error en la línea: [39] en el archivo jsp: [/listadeRegistrarse.jsp]
+Syntax error, insert ";" to complete Statement
+36:             <tr>
+37:                 <td><% rs.get.Int("id")%></td>
+38:                 <td><% rs.get.Int("nombres")%></td>
+39:                 <td><% rs.get.Int("usuarios")%></td>
+40:                 <td>
+41:                     <<a>Editar</a>
+42:                     <a>Eliminar</a>
+
+
+Ha tenido lugar un error en la línea: [179] en el fichero java generado: [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\work\Catalina\localhost\Proyecto_TaypaFastFood\org\apache\jsp\listadeRegistrarse_jsp.java]
+Syntax error, insert "}" to complete Block
+
+Ha tenido lugar un error en la línea: [196] en el fichero java generado: [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\work\Catalina\localhost\Proyecto_TaypaFastFood\org\apache\jsp\listadeRegistrarse_jsp.java]
+Syntax error on token "}", delete this token
+
+Ha tenido lugar un error en la línea: [197] en el fichero java generado: [E:\UTP TRABAJOS\MARZO 2024\DESARROLLO WEB INTEGRADO\apache-tomcat-10.1.12\work\Catalina\localhost\Proyecto_TaypaFastFood\org\apache\jsp\listadeRegistrarse_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:513)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:402)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:372)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:356)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:396)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:676)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+17-Jul-2024 01:27:16.979 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+17-Jul-2024 01:27:16.979 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()

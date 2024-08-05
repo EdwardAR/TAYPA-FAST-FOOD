@@ -1,0 +1,106 @@
+body {
+  background-image: radial-gradient(circle at 91.99% 34.72%, #d2ff89 0, #b9ff91 10%, #9dff99 20%,
+      #80fb9f 30%, #62efa4 40%, #3fe0a6 50%, #06d1a7 60%, #00c4a8 70%, #00b8a9 80%, #00afab 90%, #00a7ae 100%);
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+h1 {
+  color: #9717be;
+}
+/* inicio agregando*/
+.header{
+  position: fixed; /* para que este fijado */
+  top: 0;
+  padding-top: 10px;
+  width: 100%;
+  margin-inline: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around; /* para que se separen */
+  transition: 0.7s;
+  padding: 20px 10px;
+}
+
+.navegacion a {
+  text-decoration: none;
+  color: rgb(97, 97, 97);
+  font-weight: 400;
+  font-size: 15px;
+}
+ 
+/* Logo */
+.logo{
+  font-weight: 1000;
+  font-size: 55px;
+  color: #9717be;
+}
+.navegacion{
+  display: flex;
+  align-items: center;
+  padding-left: 0;
+  list-style: none;
+  justify-content: space-around;
+  gap: 50px;
+  z-index: auto;
+}
+.navegacion a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: 400;
+  font-size: 15px;
+}
+
+/* fin agregando*/
+em {
+font-size: 20px;
+
+}
+
+.btn {
+  /*separador*/
+  margin-top: 0rem;
+  display: inline-block;
+  /*tamaño del boton*/
+  padding: 0.8rem 2.5rem;
+  font-size: 1.0rem;
+  color: #fff;
+  background: slateblue;
+  /*cambia el cursor al darle click*/
+  cursor: pointer;
+  border-radius: 10px;
+
+}
+
+.invalid {
+  border: solid 1px red;
+  box-shadow: 0 0 10px red;
+}
+
+.error {
+  color: red;
+  display: block;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a.crear{
+  /*float: left;*/
+  /*margin-left: 10px;*/
+  padding: .5rem;
+  text-decoration: none;
+  font-size: 20px;
+  background-color: rgb(189, 20, 234);
+  color: black;
+  border-radius: 5px;
+}
+
+/*para al pasar el mouse cambia de color*/
+a.crear:hover{
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+}
